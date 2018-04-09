@@ -1,12 +1,12 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Matthew Shelby
+	Date: 4/8/2018
 */
 
 /*
 3. What problems did you identify in the sumTo method below?
-
+There is no return at the end
 
 */
 
@@ -19,10 +19,12 @@ public class P3_FixTheSumTo {
 	}
 	
 	public static int sumTo(int n) { 
-	    for (int i = 1; i <= n; i++) {
+		for (int i = 1; i <= 5; i++) {
 	        int sum = 0; 
 	        sum += i;
 	    }
+		return n;
+	
 	}
 
 }
